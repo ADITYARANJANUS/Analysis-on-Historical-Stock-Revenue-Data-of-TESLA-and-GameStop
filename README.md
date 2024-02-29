@@ -22,3 +22,29 @@ Download the HTML content of the provided webpages containing revenue data and s
 
 Utilize the make_graph function to plot stock data graphs for Tesla and GameStop.
 Provide appropriate titles for the graphs to ensure clarity and context for viewers.
+
+# Tasks:
+
+1) Extract Tesla Stock Data:
+
+Use the yfinance library to create a ticker object for Tesla (TSLA) and extract relevant stock data.
+
+2) Extract Tesla Revenue Data:
+
+Implement web scraping to download the webpage containing Tesla revenue data.
+Save the HTML content of the webpage as a variable named html_data for further processing.
+3) Extract GameStop Stock Data:
+
+Create a ticker object for GameStop (GME) using the yfinance library and extract the corresponding stock data.
+4) Extract GameStop Revenue Data:
+
+Apply web scraping techniques to retrieve the webpage containing GameStop revenue data.
+Store the HTML content of the webpage as a variable named html_data for subsequent analysis.
+5) Plot Tesla Stock Graph:
+
+Use the make_graph function to plot the Tesla stock data graph, incorporating the extracted stock data and revenue data (up to June 2021).
+Provide a descriptive title for the graph to convey the subject matter effectively.
+6) Plot GameStop Stock Graph:
+
+Similarly, utilize the make_graph function to plot the GameStop stock data graph, integrating the relevant stock data and revenue data (up to June 2021).
+Ensure the graph title accurately reflects the content and purpose of the visualization for clear interpretation.
